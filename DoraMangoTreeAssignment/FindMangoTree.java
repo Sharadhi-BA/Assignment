@@ -9,6 +9,7 @@ public class FindMangoTree {
         System.out.println("Enter tree number to find Mango tree or not:");
         int keyTreeNumber = sc.nextInt();
         int itr;
+        //checking exceptions
         if(totalNumberOfColumns<=0 || totalNumberOfRows<=0)
         {
             System.out.println("The given input is Invalid.Please provide positive value for total number of rows and columns.");
@@ -19,6 +20,7 @@ public class FindMangoTree {
             System.out.println("The given tree number "+keyTreeNumber+" is Invalid");
             System.exit(0);
         }
+        //finding whether given tree is Mango tree or not
         for (itr = 1; itr <= totalNumberOfRows * totalNumberOfColumns; itr++) {
             if(itr<=totalNumberOfColumns || (itr%totalNumberOfColumns==0) || (itr%totalNumberOfColumns==1))
             {
