@@ -1,0 +1,44 @@
+Assumption: 
+	Input is taken for rows and columns.
+	
+Exceptions:
+	Tree number greater than the planted trees.
+	Tree number is 0 or in negative.
+	Rows and Columns is negative or 0.
+Sample Test cases:
+
+T1:Row=3,Column=5
+	1   2   3   4   5 
+	6   7   8   9   10
+	11 12 13 14 15
+TreeNumber=12
+Output:Not a mango tree.
+
+T2:Row=3,Column=5
+	1   2   3   4   5 
+	6   7   8   9   10
+	11 12 13 14 15
+TreeNumber=1
+Output: mango tree.	
+
+T3:Row=3,Column=5
+	1   2   3   4   5 
+	6   7   8   9   10
+	11 12 13 14 15
+TreeNumber=4
+Output: mango tree.	
+
+T4:Row=3,Column=5
+	1   2   3   4   5 
+	6   7   8   9   10
+	11 12 13 14 15
+TreeNumber=11
+Output: mango tree.
+
+T5:Row=3,Column=5
+	1   2   3   4   5 
+	6   7   8   9   10
+	11 12 13 14 15
+TreeNumber=10
+Output: mango tree.
+	
