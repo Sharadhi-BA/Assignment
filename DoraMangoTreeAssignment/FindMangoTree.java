@@ -21,15 +21,10 @@ public class FindMangoTree {
             System.exit(0);
         }
         //finding whether given tree is Mango tree or not
-        for (itr = 1; itr <= totalNumberOfRows * totalNumberOfColumns; itr++) {
-            if(itr<=totalNumberOfColumns || (itr%totalNumberOfColumns==0) || (itr%totalNumberOfColumns==1))
-            {
-                if(keyTreeNumber==itr)
-                {
-                    System.out.println("The given tree with tree number "+keyTreeNumber+" is a MANGO tree");
-                    System.exit(0);
-                }
-            }
+        if(keyTreeNumber<=totalNumberOfColumns || (keyTreeNumber%totalNumberOfColumns==0) || (keyTreeNumber%totalNumberOfColumns==1))
+        {
+            System.out.println("The given tree with tree number "+keyTreeNumber+" is a MANGO tree");
+            System.exit(0);
         }
         System.out.println("The given tree with tree number "+keyTreeNumber+" is NOT a MANGO tree");
     }
