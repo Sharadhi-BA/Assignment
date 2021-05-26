@@ -1,0 +1,71 @@
+Jeevitha just started work as a programming trainer for UIT's Placement Cell. She is paid Rs.100 an hour, with a few exceptions. She earns an extra Rs.15 an hour for any part of a day where she works more than 8 hours, and an extra Rs.25 an hour for hours beyond 40 in any one week. Also, she earns a 25% bonus for working on Saturday and a 50% bonus for working on Sunday. The bonuses for Saturday and Sunday are computed based on the hours worked those days; they are not used to calculate any bonus for working more than 40 hours in a week. You'll be given the number of hours Jeevitha worked on each day in a week (Sunday, Monday, ..., Saturday), and you need to compute her salary for the week.
+Exception: Negative working hours
+
+TestCases:
+
+T1:
+Input:
+0
+8
+8
+8
+10
+6
+0
+Output:
+4030
+
+T2:
+Input:
+9
+8
+4
+5
+9
+10
+0
+Output:
+5017.5
+Explanation:
+On Sunday 9 hours. It is greater than 8 hours. So 915 will be day salary. Bonus on Sunday is 50% of 915 which is 457.5. In weekdays two days above 8 hours. Calculating weekdays salary is 3645.
+
+T3:
+Input:
+-8
+Output:
+Invalid Input
+
+T4:
+Input:
+9
+8
+8
+8
+8
+8
+9
+Output:
+6516.25
+Explanation: 9 on sunday which equals 915+457.5=1372.5.
+9 on saturday which equals to 915+228.75=1143.75
+4000 on the other weekdays.
+
+T5:
+Input:
+8
+11
+10
+10
+10
+11
+9
+Output:
+8023.75
+Explanation:
+On sunday: 800+400=1200
+On saturday: 915+228.75=1143.75
+On Weekdays: (1100+45)+1030+1030+1030+1145=5380
+Total: 7723.75
+Working more than 40 hours per week excluding weekends: total working hours=52
+52-40=12*25=300
+Total=8023.75  (300+7723.75)
