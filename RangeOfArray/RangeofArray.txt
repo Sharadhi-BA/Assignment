@@ -1,0 +1,38 @@
+Array Range
+Write a program to find the range of the elements in the array. The range of an array is the difference between the maximum and minimum element in an array,
+
+Assumption: If given a negative number then the range should be calculated as it is calculated in number line.
+example: minimum being -1 and maximum being 5,
+-1 0 1 2 3 4 5 
+Range will be 6
+
+TestCases:
+T1:
+Input:
+5
+2
+4
+1
+3
+5
+Output:
+The range of the array is 4
+
+T2:
+Input:
+3
+20
+48
+32
+Output:
+The range of the array is 28
+
+T3:
+Input:
+4
+-8
+9
+-1
+10
+Output:
+The range of the array is 18
