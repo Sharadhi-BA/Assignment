@@ -1,0 +1,78 @@
+Functions – Array Type
+Write a program to find the type of array using functions. An array is said to be “Even” if all the elements in the array are even. An array is said to be “Odd” if all the elements in the array are odd. An array is said to be “Mixed” if it contains some odd elements and some even elements. The return value of the function should be 1 if the array is Even. The return value of the function should be 2 if the array is Odd. The return value of the function should be 3 if the array is Mixed.
+
+Assumption: Negative numbers are allowed to take.
+
+T1:
+TestCases:
+Input:
+5
+2
+4
+1
+3
+5
+Output:
+The array is Mixed
+
+T2:
+TestCases:
+Input:
+6
+2
+2
+6
+4
+8
+1
+Output:
+The array is Mixed
+
+T3:
+Input:
+5
+4
+10
+0
+6
+8
+Output:
+The array is Even
+
+T4:
+Input:
+5
+15
+9
+7
+1
+3
+Output:
+The array is Odd
+
+T5:
+Input:
+3
+-8
+-6
+2
+Output:
+The array is Even
+
+T6:
+Input:
+3
+15
+-1
+-9
+Output:
+The array is Odd
+
+T7:
+Input:
+3
+-8
+-9
+-12
+Output:
+The array is Mixed
