@@ -1,0 +1,43 @@
+A lower triangular matrix is a square matrix in which all the elements above the diagonal are zero. That is, all the non-zero elements are in the lower triangle.
+The first integer corresponds to the number of rows and the second number corresponds to the number of columns in the matrix. The remaining integers correspond to the elements in the matrix. The elements are read in row-wise order, first row first, then second row and so on.
+Print "yes" if it is a lower triangular matrix. Print "no" if it is not a lower triangular matrix.
+
+Exceptions:
+Not a square matrix
+Not a valid matrix size
+
+TestCases:
+
+T1:
+Input:
+3
+4
+Output:
+Please enter a square matrix
+
+T2:
+Input:
+-4
+-4
+Output:
+Please enter a valid matrix size
+
+T3:
+Input:
+3
+3
+1 0 1
+1 1 0
+1 1 1
+Output:
+No
+
+T4:
+Input:
+3
+3
+1 0 0
+1 1 0
+1 1 1
+Output:
+Yes
