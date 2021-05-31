@@ -1,4 +1,4 @@
-Assumption:  Ratngs can be given in the lowercase as well as uppercase.
+Assumption:  Ratings can be given in the lowercase as well as uppercase.
 Input is not through the scanner input.
 
 Exceptions handled:
