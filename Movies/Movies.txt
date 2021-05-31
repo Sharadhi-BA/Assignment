@@ -1,0 +1,43 @@
+Assumption:  Ratngs can be given in the lowercase as well as uppercase.
+Input is not through the scanner input.
+
+Exceptions handled:
+NO pg rating movies present in list: prints no movies
+lowercase pg rating is present: converted to uppercase and is checked 
+
+Test Cases:
+T1:
+Input:
+Casino Royale,Eon Productions,PG-13
+Baahubali,Raj Productions
+Harry Potter and the prosoner of Azkabaan,Warner Bros,UA-15
+Harry Potter and the Philosopher stone,Warner Bros,UA-11
+Harry Potter and the Half Blood Prince,Warner Bros
+Output:
+Title: Casino Royale	Studio: Eon Productions 	Rating: PG-13
+
+Title: Baahubali	Studio: Raj Productions 	Rating: PG
+
+Title: Harry Potter and the Half Blood Prince	Studio: Warner Bros 	Rating: PG
+
+T2:
+Input:
+Casino Royale,Eon Productions,UA-13
+Baahubali,Raj Productions,UA
+Harry Potter and the prosoner of Azkabaan,Warner Bros,UA-15
+Harry Potter and the Philosopher stone,Warner Bros,UA-11
+Harry Potter and the Half Blood Prince,Warner Bros,U
+Output:
+No movies with rating PG
+
+T3:
+Input:
+Casino Royale,Eon Productions,UA-13
+Baahubali,Raj Productions,UA
+Harry Potter and the prosoner of Azkabaan,Warner Bros,UA-15
+Harry Potter and the Philosopher stone,Warner Bros,PG-11
+Harry Potter and the Half Blood Prince,Warner Bros,pg
+Output:
+Title: Harry Potter and the Philosopher stone	Studio: Warner Bros 	Rating: PG-11
+
+Title: Harry Potter and the Half Blood Prince	Studio: Warner Bros 	Rating: pg
